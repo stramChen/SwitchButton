@@ -1,5 +1,5 @@
 ## 效果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200615165613837.gif#pic_center)
+![SwitchButton滑动按钮](img/img.gif#pic_center)
 ## 使用方法
 ###### 1.style.xml中引入自定义标签
 ```css
@@ -26,14 +26,16 @@
 ```
 
 ###### 2.引入自定义View布局
+```java
 <per.stramchen.switchbuttondemo.SwitchButton
-            android:id="@+id/btn_voice_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:sb_background="#E8E9EB"
-            app:sb_checked_color="#65C065"
-            app:sb_show_indicator="false" />
+	android:id="@+id/btn_voice_switch"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	app:sb_background="#E8E9EB"
+	app:sb_checked_color="#65C065"
+	app:sb_show_indicator="false" />
+```
 
 
 ###### 3.设置监听
