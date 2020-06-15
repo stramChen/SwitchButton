@@ -1,8 +1,9 @@
 ## 效果
 <img src="img/img.gif#pic_center" alt="SwitchButton" width="60%" align="center" />
+
 ## 使用方法
 ###### 1.style.xml中引入自定义标签
-```css
+```java
  <declare-styleable name="SwitchButton">
  <attr name="sb_shadow_radius" format="reference|dimension" />
  <attr name="sb_shadow_offset" format="reference|dimension" />
