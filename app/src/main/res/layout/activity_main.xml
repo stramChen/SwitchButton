@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_voice_switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_switch_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:text="SwitchButton1"
+            android:textColor="#666666" />
+
+        <per.stramchen.switchbuttondemo.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sb_background="#E8E9EB"
+            app:sb_checked_color="#65C065"
+            app:sb_show_indicator="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_voice_switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_switch_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:text="SwitchButton2"
+            android:textColor="#666666" />
+
+        <per.stramchen.switchbuttondemo.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:sb_checkline_width="2dp"
+            app:sb_checkline_color="@color/colorPrimary"
+            app:sb_background="#E8E9EB"
+            app:sb_checked_color="#65C065"
+            app:sb_show_indicator="true" />
+    </LinearLayout>
+</LinearLayout>
